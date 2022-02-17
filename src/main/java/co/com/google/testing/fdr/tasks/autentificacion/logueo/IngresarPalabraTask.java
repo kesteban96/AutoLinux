@@ -10,7 +10,7 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 
-public class IngresarUsuarioTask implements Task {
+public class IngresarPalabraTask implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
@@ -22,7 +22,7 @@ public class IngresarUsuarioTask implements Task {
         );
     }
 
-    public static IngresarUsuarioTask ingresarValor() {
-        return instrumented(IngresarUsuarioTask.class);
+    public static IngresarPalabraTask ingresarValor() {
+        return instrumented(IngresarPalabraTask.class);
     }
 }

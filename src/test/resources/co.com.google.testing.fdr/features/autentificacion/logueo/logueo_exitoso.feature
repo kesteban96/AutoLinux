@@ -12,7 +12,7 @@
     Then podra ver los resultados
     Examples:
       |palabra|
-	|autochat@demo|
+	|Atletico nacional|
 
 
 

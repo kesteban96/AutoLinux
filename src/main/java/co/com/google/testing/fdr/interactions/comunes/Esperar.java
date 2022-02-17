@@ -1,4 +1,4 @@
-package co.com.inconcert.testing.fdr.interactions.comunes;
+package co.com.google.testing.fdr.interactions.comunes;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 

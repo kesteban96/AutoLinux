@@ -1,10 +1,10 @@
-package co.com.inconcert.testing.fdr.tasks.opensite;
+package co.com.google.testing.fdr.tasks.opensite;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
-import co.com.inconcert.testing.fdr.interactions.comunes.Esperar;
-import co.com.inconcert.testing.fdr.userinterfaces.autentificacion.logueo.LoginPage;
-import co.com.inconcert.testing.fdr.utilities.properties.PropertiesProject;
+import co.com.google.testing.fdr.interactions.comunes.Esperar;
+import co.com.google.testing.fdr.userinterfaces.autentificacion.logueo.LoginPage;
+import co.com.google.testing.fdr.utilities.properties.PropertiesProject;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 
@@ -14,7 +14,7 @@ public class OpenSiteTask implements Task {
 
     LoginPage usuario = new LoginPage();
 
-    public static OpenSiteTask openSiteInConcert()
+    public static OpenSiteTask openSiteGoogle()
     {
         Esperar.esperarEnSegundos(15000);
         return (OpenSiteTask) instrumented(OpenSiteTask.class);
@@ -25,7 +25,7 @@ public class OpenSiteTask implements Task {
 
         String strUrl = "";
         try {
-            strUrl = PropertiesProject.getUrlInConcert();
+            strUrl = PropertiesProject.getUrlGoogle();
         } catch (IOException e) {
             e.printStackTrace();
         }

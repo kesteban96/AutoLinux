@@ -1,58 +1,18 @@
-co/com/inconcert/testing/fdr/questions/createuser/UserValidate.java
- co.com.inconcert.testing.fdr.questions.createuser.UserValidate
-co/com/inconcert/testing/fdr/utilities/exceldata/LectorExcel.java
- co.com.inconcert.testing.fdr.utilities.exceldata.LectorExcel
-co/com/inconcert/testing/fdr/utilities/properties/PropertiesProject.java
- co.com.inconcert.testing.fdr.utilities.properties.PropertiesProject
-co/com/inconcert/testing/fdr/userinterfaces/chat/ChatPage.java
- co.com.inconcert.testing.fdr.userinterfaces.chat.ChatPage
-co/com/inconcert/testing/fdr/utilities/exceldata/ModificarExcel.java
- co.com.inconcert.testing.fdr.utilities.exceldata.ModificarExcel
-co/com/inconcert/testing/fdr/userinterfaces/autentificacion/logueo/LoginPage.java
- co.com.inconcert.testing.fdr.userinterfaces.autentificacion.logueo.LoginPage
-co/com/inconcert/testing/fdr/userinterfaces/campaign/CampaignPage.java
- co.com.inconcert.testing.fdr.userinterfaces.campaign.CampaignPage
-co/com/inconcert/testing/fdr/utilities/constant/ConstantInConcert.java
- co.com.inconcert.testing.fdr.utilities.constant.ConstantInConcert
-co/com/inconcert/testing/fdr/utilities/runner/RunnerInConcert.java
- co.com.inconcert.testing.fdr.utilities.runner.RunnerInConcert
-co/com/inconcert/testing/fdr/questions/campaign/ValidateCampaign.java
- co.com.inconcert.testing.fdr.questions.campaign.ValidateCampaign
-co/com/inconcert/testing/fdr/utilities/datos/DatosPrueba.java
- co.com.inconcert.testing.fdr.utilities.datos.DatosPrueba
-co/com/inconcert/testing/fdr/utilities/exceldata/DatosFeature.java
- co.com.inconcert.testing.fdr.utilities.exceldata.DatosFeature
-co/com/inconcert/testing/fdr/tasks/opensite/OpenSiteTask.java
- co.com.inconcert.testing.fdr.tasks.opensite.OpenSiteTask
-co/com/inconcert/testing/fdr/utilities/exceldata/BeforeRunner.java
- co.com.inconcert.testing.fdr.utilities.exceldata.BeforeRunner
-co/com/inconcert/testing/fdr/tasks/chat/SendMessage.java
- co.com.inconcert.testing.fdr.tasks.chat.SendMessage
-co/com/inconcert/testing/fdr/utilities/javascript/JavaScript.java
- co.com.inconcert.testing.fdr.utilities.javascript.JavaScript
-co/com/inconcert/testing/fdr/utilities/robot/Robot.java
- co.com.inconcert.testing.fdr.utilities.robot.Robot
-co/com/inconcert/testing/fdr/tasks/chat/ChangeStatus.java
- co.com.inconcert.testing.fdr.tasks.chat.ChangeStatus
-co/com/inconcert/testing/fdr/tasks/opensite/OpenSiteSnippet.java
- co.com.inconcert.testing.fdr.tasks.opensite.OpenSiteSnippet
-co/com/inconcert/testing/fdr/tasks/createuser/CreateUser.java
- co.com.inconcert.testing.fdr.tasks.createuser.CreateUser
-co/com/inconcert/testing/fdr/tasks/campaign/CreateCampaign.java
- co.com.inconcert.testing.fdr.tasks.campaign.CreateCampaign
-co/com/inconcert/testing/fdr/questions/chat/TextValidate.java
- co.com.inconcert.testing.fdr.questions.chat.TextValidate
-co/com/inconcert/testing/fdr/utilities/datos/CargarDatos.java
- co.com.inconcert.testing.fdr.utilities.datos.CargarDatos
-co/com/inconcert/testing/fdr/tasks/autentificacion/logueo/IngresarUsuarioTask.java
- co.com.inconcert.testing.fdr.tasks.autentificacion.logueo.IngresarUsuarioTask
-co/com/inconcert/testing/fdr/interactions/comunes/Scrollear.java
- co.com.inconcert.testing.fdr.interactions.comunes.Scrollear
-co/com/inconcert/testing/fdr/userinterfaces/createuser/CreateUserPage.java
- co.com.inconcert.testing.fdr.userinterfaces.createuser.CreateUserPage
-co/com/inconcert/testing/fdr/interactions/comunes/Change.java
- co.com.inconcert.testing.fdr.interactions.comunes.Change
-co/com/inconcert/testing/fdr/interactions/comunes/Esperar.java
- co.com.inconcert.testing.fdr.interactions.comunes.Esperar
-co/com/inconcert/testing/fdr/questions/autentificacion/ValidarLoginQuestion.java
- co.com.inconcert.testing.fdr.questions.autentificacion.ValidarLoginQuestion
+co/com/google/testing/fdr/utilities/properties/PropertiesProject.java
+ co.com.google.testing.fdr.utilities.properties.PropertiesProject
+co/com/google/testing/fdr/tasks/opensite/OpenSiteTask.java
+ co.com.google.testing.fdr.tasks.opensite.OpenSiteTask
+co/com/google/testing/fdr/utilities/datos/CargarDatos.java
+ co.com.google.testing.fdr.utilities.datos.CargarDatos
+co/com/google/testing/fdr/utilities/datos/DatosPrueba.java
+ co.com.google.testing.fdr.utilities.datos.DatosPrueba
+co/com/google/testing/fdr/userinterfaces/autentificacion/logueo/LoginPage.java
+ co.com.google.testing.fdr.userinterfaces.autentificacion.logueo.LoginPage
+co/com/google/testing/fdr/tasks/autentificacion/logueo/IngresarPalabraTask.java
+ co.com.google.testing.fdr.tasks.autentificacion.logueo.IngresarPalabraTask
+co/com/google/testing/fdr/interactions/comunes/Scrollear.java
+ co.com.google.testing.fdr.interactions.comunes.Scrollear
+co/com/google/testing/fdr/interactions/comunes/Esperar.java
+ co.com.google.testing.fdr.interactions.comunes.Esperar
+co/com/google/testing/fdr/questions/autentificacion/VerResultadosQuestion.java
+ co.com.google.testing.fdr.questions.autentificacion.VerResultadosQuestion

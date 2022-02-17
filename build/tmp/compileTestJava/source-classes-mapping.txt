@@ -1,16 +1,4 @@
-co/com/inconcert/testing/fdr/stepdefinitions/chat/ChatStepdefinitions.java
- co.com.inconcert.testing.fdr.stepdefinitions.chat.ChatStepdefinitions
-co/com/inconcert/testing/fdr/stepdefinitions/createuser/CreateUserStepDefinitions.java
- co.com.inconcert.testing.fdr.stepdefinitions.createuser.CreateUserStepDefinitions
-co/com/inconcert/testing/fdr/runners/autentificacion/logueo/AutentificacionRunner.java
- co.com.inconcert.testing.fdr.runners.autentificacion.logueo.AutentificacionRunner
-co/com/inconcert/testing/fdr/stepdefinitions/autentificacion/logueo/AutentificacionStepDefinitions.java
- co.com.inconcert.testing.fdr.stepdefinitions.autentificacion.logueo.AutentificacionStepDefinitions
-co/com/inconcert/testing/fdr/stepdefinitions/campaign/CreateCampaignStepDefinitions.java
- co.com.inconcert.testing.fdr.stepdefinitions.campaign.CreateCampaignStepDefinitions
-co/com/inconcert/testing/fdr/runners/createuser/CreateUser.java
- co.com.inconcert.testing.fdr.runners.createuser.CreateUser
-co/com/inconcert/testing/fdr/runners/autentificacion/campaign/CreateCampaign.java
- co.com.inconcert.testing.fdr.runners.autentificacion.campaign.CreateCampaign
-co/com/inconcert/testing/fdr/runners/autentificacion/chat/ChatRunner.java
- co.com.inconcert.testing.fdr.runners.autentificacion.chat.ChatRunner
+co/com/google/testing/fdr/runners/autentificacion/logueo/AutentificacionRunner.java
+ co.com.google.testing.fdr.runners.autentificacion.logueo.AutentificacionRunner
+co/com/google/testing/fdr/stepdefinitions/autentificacion/logueo/AutentificacionStepDefinitions.java
+ co.com.google.testing.fdr.stepdefinitions.autentificacion.logueo.AutentificacionStepDefinitions

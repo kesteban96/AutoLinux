@@ -1,4 +1,4 @@
-package co.com.inconcert.testing.fdr.interactions.comunes;
+package co.com.google.testing.fdr.interactions.comunes;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;

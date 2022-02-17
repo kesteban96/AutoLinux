@@ -1,8 +1,7 @@
-group 'co.com.inconcert'
+group 'co.com.google'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
-apply plugin: 'maven'
 apply plugin: 'net.serenity-bdd.aggregator'
 
 description = 'prueba'

@@ -1,4 +1,4 @@
-package co.com.inconcert.testing.fdr.utilities.properties;
+package co.com.google.testing.fdr.utilities.properties;
 
 import java.io.File;
 import java.io.FileReader;
@@ -13,9 +13,9 @@ public class PropertiesProject {
     throw new IllegalStateException();
   }
 
-  public static String getUrlInConcert() throws IOException {
+  public static String getUrlGoogle() throws IOException {
     loadProperties();
-    return prop.getProperty("UrlInConcert");
+    return prop.getProperty("UrlGoogle");
   }
 
     public static void loadProperties() throws IOException {
@@ -23,7 +23,7 @@ public class PropertiesProject {
       prop = new Properties();
       File objclasspathRoot = new File(System.getProperty("user.dir"));
       String strFilePath = objclasspathRoot.getAbsolutePath();
-      prop.load(new FileReader(strFilePath + "/InConcert.properties"));
+      prop.load(new FileReader(strFilePath + "/Google.properties"));
     }
   }
 }

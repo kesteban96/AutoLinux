@@ -9,3 +9,4 @@ pipeline {
                 bat "gradlew clean build test --tests AutentificacionRunner"
             }
         }
+    }

@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Hello World'
                 git branch: 'main', credentialsId: '90d8486d-92e6-4200-9f88-a496801393cd', url: 'https://github.com/kesteban96/AutomationGoogleJenkins'
-                sh "gradlew clean build test --tests 'co.com.google.testing.fdr.runners.autentificacion.logueo.AutentificacionRunner'"
+                bat "gradlew clean build test --tests 'co.com.google.testing.fdr.runners.autentificacion.logueo.AutentificacionRunner'"
             }
         }
     }

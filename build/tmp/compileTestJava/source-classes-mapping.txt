@@ -1,8 +1,0 @@
-co/com/google/testing/fdr/runners/autentificacion/logueo/AutentificacionRunner.java
- co.com.google.testing.fdr.runners.autentificacion.logueo.AutentificacionRunner
-co/com/google/testing/fdr/stepdefinitions/autentificacion/logueo/AutentificacionStepDefinitions.java
- co.com.google.testing.fdr.stepdefinitions.autentificacion.logueo.AutentificacionStepDefinitions
-co/com/google/testing/fdr/runners/autentificacion/logueo/BuscarRunner.java
- co.com.google.testing.fdr.runners.autentificacion.logueo.BuscarRunner
-co/com/google/testing/fdr/stepdefinitions/autentificacion/logueo/BuscarStepDefinitions.java
- co.com.google.testing.fdr.stepdefinitions.autentificacion.logueo.BuscarStepDefinitions

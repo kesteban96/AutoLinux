@@ -16,7 +16,7 @@ compileTestJava.options.encoding = "UTF-8"
 
 repositories
         {
-            jcenter()
+
             mavenLocal()
             mavenCentral()
         }
@@ -25,7 +25,7 @@ buildscript
         {
             repositories
                     {
-                        jcenter()
+
                         mavenLocal()
                         mavenCentral()
                     }
@@ -47,9 +47,9 @@ dependencies
             implementation "org.jvnet.com4j:com4j:2.1"
             implementation "org.slf4j:slf4j-simple:1.6.1"
             implementation "org.codehaus.groovy:groovy-all:2.4.11"
-            implementation "net.serenity-bdd:serenity-junit:3.2.0"
-            implementation "net.serenity-bdd:serenity-core:3.2.0"
-            implementation "net.serenity-bdd:serenity-cucumber:3.2.0"
+            implementation "net.serenity-bdd:serenity-junit:3.1.15"
+            implementation "net.serenity-bdd:serenity-core:3.1.15"
+            implementation "net.serenity-bdd:serenity-cucumber:3.1.15"
             implementation 'org.jetbrains:annotations:20.1.0'
             implementation 'org.junit.jupiter:junit-jupiter:5.8.1'
             testImplementation "org.assertj:assertj-core:3.9.0"
